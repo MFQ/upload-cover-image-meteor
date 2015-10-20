@@ -43,7 +43,11 @@ Package.onUse(function(api) {
   // server dependencies
   api.addFiles(["lib/server/cover_image_updator.js"], server);
 
-  api.addFiles('upload-cover-image.js');
+  // api.addFiles('upload-cover-image.js');
+  if (typeof api.export !== 'undefined') {
+    //api.export('DEBUGX', both);
+  }
+
 });
 
 Package.onTest(function(api) {
