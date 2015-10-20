@@ -21,6 +21,10 @@ Package.onUse(function(api) {
   api.use(['underscore', 'accounts-base', 'accounts-password'], both);
   api.use(['jquery', 'templating', 'mizzao:bootstrap-3@3.2.0_1'], client);
 
+
+  api.addAssets('lib/client/vendor/imgareselect/border-anim-v.gif', 'client')
+  api.addAssets('lib/client/vendor/imgareselect/border-anim-h.gif', 'client')
+
   // Adding package files
   api.addFiles([
     "lib/client/alert_helpers.js",
@@ -29,10 +33,8 @@ Package.onUse(function(api) {
     "lib/client/template/editCoverImageModal.css",
     "lib/client/template/editCoverImageModal.html",
     "lib/client/template/editCoverImageModal.js",
-    "lib/client/vendor/imgareaselect/border-anim-v.gif",
-    "lib/client/vendor/imgareaselect/border-anim-h.gif",
-    "lib/client/vendor/imgareaselect/imgareaselect-animated.css",
-    "lib/client/vendor/imgareaselect/jquery.imgareaselect.pack.js"
+    "lib/client/vendor/imgareselect/imgareaselect-animated.css",
+    "lib/client/vendor/imgareselect/jquery.imgareaselect.pack.js"
   ], client);
 
   // both client/server shared dependencies
