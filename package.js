@@ -24,7 +24,8 @@ Package.onUse(function(api) {
   // Adding package files
   api.addFiles([], client);
 
-  api.addFiles([], both);
+  // both client/server shared dependencies
+  api.addFiles(["lib/validators.js"], both);
 
   // server dependencies
   api.addFiles(["lib/server/cover_image_updator.js"], server);
