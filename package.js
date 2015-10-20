@@ -26,9 +26,8 @@ Package.onUse(function(api) {
 
   api.addFiles([], both);
 
-  api.addFiles([
-    "lib/server/cover_image_updator.js"
-  ], server);
+  // server dependencies
+  api.addFiles(["lib/server/cover_image_updator.js"], server);
 
   api.addFiles('upload-cover-image.js');
 });
