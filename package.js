@@ -22,7 +22,18 @@ Package.onUse(function(api) {
   api.use(['jquery', 'templating', 'mizzao:bootstrap-3@3.2.0_1'], client);
 
   // Adding package files
-  api.addFiles([], client);
+  api.addFiles([
+    "lib/client/alert_helpers.js",
+    "lib/client/constants.js",
+    "lib/client/file_reader.js",
+    "lib/client/template/editCoverImageModal.css",
+    "lib/client/template/editCoverImageModal.html",
+    "lib/client/template/editCoverImageModal.js",
+    "lib/client/vendor/imgareaselect/border-anim-v.gif",
+    "lib/client/vendor/imgareaselect/border-anim-h.gif",
+    "lib/client/vendor/imgareaselect/imgareaselect-animated.css",
+    "lib/client/vendor/imgareaselect/jquery.imgareaselect.pack.js"
+  ], client);
 
   // both client/server shared dependencies
   api.addFiles(["lib/validators.js"], both);
