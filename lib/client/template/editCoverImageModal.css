@@ -32,3 +32,16 @@ width: 70% !important;
 margin-left: auto !important;
 margin-right: auto !important;
 }
+
+.drag{
+  width: 450px;
+  height: 280px;
+  overflow: hidden;
+  margin: auto;
+  cursor: -webkit-grab;
+}
+
+.drag img{
+  width: 750px;
+  height: 380px;
+}
