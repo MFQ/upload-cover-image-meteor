@@ -45,3 +45,8 @@ margin-right: auto !important;
   width: 750px;
   height: 380px;
 }
+
+.position-buttons {
+  position: relative;
+  margin-top: -35px;
+}

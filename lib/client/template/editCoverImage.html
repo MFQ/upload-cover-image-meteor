@@ -4,13 +4,27 @@
     <img id="coverUserImg" class="center-block" style="{{cover_image_style}}"  src="{{ cover_image }}" alt="" />
   </div>
 
-<div class="drag center-block" >
-  <button class="btn btn-primary" id="editCoverImage" > Edit </button>
+<div class="drag center-block position-buttons " >
+
+  <button type="button" id="editCoverImage"  class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+  </button>
+
   <div class="pull-right">
-     <div class="error"></div>
-    <button class="btn btn-primary" id="adjustCoverImage" > Adjust </button>
-    <button class="btn btn-danger btn-adjust" id="adjustCoverImageCancel" style="display:none;" > Cancel </button>
-    <button class="btn btn-success btn-adjust" id="adjustCoverImageSave" style="display:none;" > Save </button>
+    <div class="error"></div>
+
+    <button type="button" id="adjustCoverImage"  class="btn btn-default" aria-label="Left Align">
+      <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+    </button>
+
+    <button type="button" style="display:none;" id="adjustCoverImageCancel" class="btn btn-default btn-adjust" aria-label="Left Align">
+      <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    </button>
+
+    <button type="button" style="display:none;" id="adjustCoverImageSave" class="btn btn-default btn-adjust" aria-label="Left Align">
+      <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+    </button>
+
   </div>
 </div>
 
