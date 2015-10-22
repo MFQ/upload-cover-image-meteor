@@ -36,7 +36,7 @@ Package.onUse(function(api) {
     "lib/client/constants.js",
     "lib/client/file_reader.js",
     "lib/client/template/editCoverImage.css",
-    "lib/client/template/editCoverImageModal.html",
+    "lib/client/template/editCoverImage.html",
     "lib/client/template/editCoverImageModal.js"
   ], client);
 
