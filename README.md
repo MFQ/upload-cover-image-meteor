@@ -3,7 +3,7 @@
     $ meteor add accounts-base
     $ meteor add accounts-password
 
-### Install our upload-cover-image packages
+### Install upload-cover-image packages
     $ meteor add mfq:upload-cover-image
 
 ### Create template and install on the application
