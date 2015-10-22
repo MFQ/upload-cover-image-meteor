@@ -2,7 +2,7 @@ Package.describe({
   name: 'mfq:upload-cover-image',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'Simply upload cover image package for meteor',
+  summary: 'Upload Facebook like cover image and adjust its position package for meteor',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/MFQ/upload-cover-image-meteor',
   // By default, Meteor will default to using README.md for documentation.
