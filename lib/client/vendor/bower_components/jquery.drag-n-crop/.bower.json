@@ -1,0 +1,44 @@
+{
+  "name": "jquery.drag-n-crop",
+  "version": "0.1.1",
+  "main": [
+    "jquery.drag-n-crop.js",
+    "jquery.drag-n-crop.css"
+  ],
+  "keywords": [
+    "jquery",
+    "drag",
+    "crop",
+    "cropping",
+    "facebook"
+  ],
+  "ignore": [
+    "**/.*",
+    "*.json",
+    "karma.conf.js",
+    "node_modules",
+    "bower_components",
+    "images",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "jquery-ui": "~1.10.1",
+    "imagesloaded": "~3.1.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "chai": "~1.5.0"
+  },
+  "homepage": "https://github.com/lukaszfiszer/drag-n-crop",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "1f1e1dbaa3fa2b844be62f9f831e791f4947e8e8"
+  },
+  "_source": "git://github.com/lukaszfiszer/drag-n-crop.git",
+  "_target": "~0.1.1",
+  "_originalSource": "jquery.drag-n-crop",
+  "_direct": true
+}
