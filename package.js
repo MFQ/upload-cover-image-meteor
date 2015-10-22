@@ -22,19 +22,22 @@ Package.onUse(function(api) {
   api.use(['jquery', 'templating', 'mizzao:bootstrap-3@3.2.0_1'], client);
 
 
-  api.addAssets('lib/client/vendor/imgareselect/border-anim-v.gif', 'client')
-  api.addAssets('lib/client/vendor/imgareselect/border-anim-h.gif', 'client')
-
   // Adding package files
   api.addFiles([
+
+    "lib/client/vendor/bower_components/jquery-ui/ui/jquery-ui.js",
+    "lib/client/vendor/bower_components/eventie/eventie.js",
+    "lib/client/vendor/bower_components/eventEmitter/EventEmitter.js",
+    "lib/client/vendor/bower_components/imagesloaded/imagesloaded.js",
+    "lib/client/vendor/bower_components/jquery.drag-n-crop/jquery.drag-n-crop.js",
+    "lib/client/vendor/bower_components/jquery.drag-n-crop/jquery.drag-n-crop.css",
+
     "lib/client/alert_helpers.js",
     "lib/client/constants.js",
     "lib/client/file_reader.js",
     "lib/client/template/editCoverImageModal.css",
     "lib/client/template/editCoverImageModal.html",
-    "lib/client/template/editCoverImageModal.js",
-    "lib/client/vendor/imgareselect/imgareaselect-animated.css",
-    "lib/client/vendor/imgareselect/jquery.imgareaselect.pack.js"
+    "lib/client/template/editCoverImageModal.js"
   ], client);
 
   // both client/server shared dependencies
