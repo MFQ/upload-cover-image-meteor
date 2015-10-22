@@ -35,7 +35,7 @@ Package.onUse(function(api) {
     "lib/client/alert_helpers.js",
     "lib/client/constants.js",
     "lib/client/file_reader.js",
-    "lib/client/template/editCoverImageModal.css",
+    "lib/client/template/editCoverImage.css",
     "lib/client/template/editCoverImageModal.html",
     "lib/client/template/editCoverImageModal.js"
   ], client);
