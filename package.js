@@ -2,7 +2,7 @@ Package.describe({
   name: 'mfq:upload-cover-image',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'Upload Facebook like cover image and adjust its position package for meteor',
+  summary: 'Upload Facebook like cover image and adjust its position, package for meteor',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/MFQ/upload-cover-image-meteor',
   // By default, Meteor will default to using README.md for documentation.
@@ -16,6 +16,9 @@ var both = ['client', 'server'], client = ['client'], server = ['server']
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
   api.use('ecmascript');
+
+  // Adding both side dependencies
+  api.addFiles(["lib/exports.js"], both);
 
   // Adding dependencies
   api.use(['underscore', 'accounts-base', 'accounts-password'], both);
@@ -46,6 +49,7 @@ Package.onUse(function(api) {
   // api.addFiles('upload-cover-image.js');
   if (typeof api.export !== 'undefined') {
     //api.export('DEBUGX', both);
+    api.export('CoverImage');
   }
 
 });
