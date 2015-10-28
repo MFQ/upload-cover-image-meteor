@@ -6,7 +6,6 @@
 #coverUserImg {
   display: block;
   margin: 0px;
-  max-width: 550px;
   margin: 0 0 10px 0;
 }
 
@@ -34,7 +33,6 @@ margin-right: auto !important;
 }
 
 .drag{
-  width: 450px;
   height: 300px;
   overflow: hidden;
   margin: auto;
