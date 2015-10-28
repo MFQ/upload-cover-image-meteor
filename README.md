@@ -7,4 +7,4 @@
     $ meteor add mfq:upload-cover-image
 
 ### Create template and install on the application
-    {{> editCoverImage}}
+    {{> editCoverImage user=this }}
